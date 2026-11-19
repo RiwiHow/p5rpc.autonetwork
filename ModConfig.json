@@ -1,0 +1,23 @@
+{
+  "ModId": "p5rpc.autonetwork",
+  "ModName": "P5R Auto Network",
+  "ModAuthor": "YOUR_NAME",
+  "ModVersion": "1.0.0",
+  "ModDescription": "Automatically enables Thief's Union network features on startup and skips network prompts.",
+  "ModDll": "p5rpc.autonetwork.dll",
+  "Tags": [
+    "Persona 5 Royal",
+    "QoL"
+  ],
+  "CanUnload": false,
+  "HasExports": false,
+  "IsLibrary": false,
+  "IsUniversalMod": false,
+  "ModDependencies": [
+    "reloaded.sharedlib.hooks",
+    "Reloaded.Memory.SigScan.ReloadedII"
+  ],
+  "SupportedAppId": [
+    "p5r.exe"
+  ]
+}
